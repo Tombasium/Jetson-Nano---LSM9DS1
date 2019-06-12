@@ -28,6 +28,10 @@ Contains the class Accelerometer.
 
 Usage:
 
+Connect the device to i2c channel 1:
+SCL - Pin 5
+SDA - Pin 3
+
 Copy both files into the active directory and import accelerometer.py
 
 Make sure that you have downloaded and installed smbus:
