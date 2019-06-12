@@ -10,7 +10,7 @@ The original code is available at:
 https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/blob/master/adafruit_lsm9ds1.py
 
 
-This is tested on Python 2.7 using the Adafruit LSM9DS1 module - though should work with pythn 3.x and any mdoule using 
+This is tested on Python 2.7 using the Adafruit LSM9DS1 module - though should work with python 3.x and any module using 
 the ST Microelectronics LSM9DS1.
 
 Datasheet for the module is at https://www.st.com/en/mems-and-sensors/lsm9ds1.html
@@ -29,8 +29,12 @@ Contains the class Accelerometer.
 Usage:
 
 Connect the device to i2c channel 1:
+
 SCL - Pin 5
+
 SDA - Pin 3
+
+(This is hardcoded but may later be modified to be changable)
 
 Copy both files into the active directory and import accelerometer.py
 
